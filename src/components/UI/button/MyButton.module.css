@@ -1,0 +1,14 @@
+.myButton {
+    border: 2px solid teal;
+    background-color: teal;
+    opacity: 0.8;
+    color: #fff;
+    padding: 7px 15px;
+    margin: 10px 5px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.myButton:hover {
+    opacity: 1;
+}

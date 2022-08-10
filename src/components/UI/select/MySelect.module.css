@@ -1,0 +1,24 @@
+.mySelect {
+    background: #f1eeee;
+    padding: 7px 7px;
+    border: none;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: right;
+    font-family: 'Roboto';
+    
+}
+
+.mySelect_option {
+    background: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: right;
+    font-family: 'Roboto';
+}
+
+option:hover {
+    background-color: teal;
+    color: #fff;
+}

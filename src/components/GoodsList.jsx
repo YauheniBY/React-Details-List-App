@@ -24,7 +24,7 @@ const GoodsList = ({goods, title, remove}) => {
                                 timeout={500}
                                 classNames="good"
                             >
-                                    <GoodsItem remove={remove} good={good} number={index + 1} />
+                                    <GoodsItem remove={remove} good={good} />
                             </CSSTransition>
                         )}
                     </TransitionGroup>

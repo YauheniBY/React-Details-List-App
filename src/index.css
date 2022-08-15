@@ -56,3 +56,33 @@ code {
   font-weight: 300;
   font-size: 16px;
 }
+
+.pagesNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.pagesNavigation_element {
+
+  background-color: teal;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 5px 2px;
+  border: 2px solid teal;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.pagesNavigation_element__active {
+  opacity: .8;
+  color: teal;
+  background-color: #fff;
+  box-shadow: 0 0 3px teal;
+}
+
+.pagesNavigation_element:hover {
+  opacity: 1;
+}

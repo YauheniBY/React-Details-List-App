@@ -1,11 +1,14 @@
 .mySelect {
-    background: #f1eeee;
-    padding: 7px 7px;
+    background: rgba(0, 128, 128, 0.163);
+    padding: 11px 7px;
     border: none;
-    font-size: 16px;
-    font-weight: 200;
-    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
     font-family: 'Roboto';
+    color: teal;
+    opacity: .8;
+    text-transform: uppercase;
     
 }
 
@@ -16,9 +19,4 @@
     font-weight: 300;
     text-align: right;
     font-family: 'Roboto';
-}
-
-option:hover {
-    background-color: teal;
-    color: #fff;
 }

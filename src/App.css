@@ -26,3 +26,47 @@ body{
   transform: translateX(-350px);
   transition: all 500ms ease-in;
 }
+
+.activity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goods-filter {
+  display: inline-block;
+  max-width: 70%;
+  margin: 0 10px;
+}
+
+.nav-bar{
+  color: #fff;
+  background-color: teal;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-between;
+}
+
+.nav-link{
+  color: #fff; 
+  margin: 10px 20px;   
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.active-link {
+  text-transform: uppercase;
+}
+.login-block {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+
+
+
